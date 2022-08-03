@@ -10,13 +10,9 @@ from random import randint
 
 
 
-url = ['https://www.hm.com/register?utm_source=invite_a_friend&utm_medium=desktop&rcr=MzEyMTU2MDQ2Mg&rm=en_in','https://www.hm.com/register?utm_source=invite_a_friend&utm_medium=desktop&rcr=MzEyMTU2ODQyMQ&rm=en_in','https://www.hm.com/register?utm_source=invite_a_friend&utm_medium=desktop&rcr=MzEyMTU2MDQyNQ&rm=en_in','https://www.hm.com/register?utm_source=invite_a_friend&utm_medium=desktop&rcr=MzEyMTU1OTQzMg&rm=en_in','https://www.hm.com/register?utm_source=invite_a_friend&utm_medium=desktop&rcr=MzEyMTU1OTQwOQ&rm=en_in','https://www.hm.com/register?utm_source=invite_a_friend&utm_medium=desktop&rcr=MzEyMTU2MDM3NA&rm=en_in','https://www.hm.com/register?utm_source=invite_a_friend&utm_medium=desktop&rcr=MzEyMTU2MDU2NA&rm=en_in','https://www.hm.com/register?utm_source=invite_a_friend&utm_medium=desktop&rcr=MzEyMTU1OTU5OQ&rm=en_in','https://www.hm.com/register?utm_source=invite_a_friend&utm_medium=desktop&rcr=MzEyMTU2MDQ1OQ&rm=en_in','https://www.hm.com/register?utm_source=invite_a_friend&utm_medium=desktop&rcr=MzEyMTU2ODQwNg&rm=en_in','https://www.hm.com/register?utm_source=invite_a_friend&utm_medium=desktop&rcr=MzEyMTU2Njc2Ng&rm=en_in','https://www.hm.com/register?utm_source=invite_a_friend&utm_medium=desktop&rcr=MzEyMTU2NjYwMQ&rm=en_in','https://www.hm.com/register?utm_source=invite_a_friend&utm_medium=desktop&rcr=MzEyMTU2NjM5Ng&rm=en_in','https://www.hm.com/register?utm_source=invite_a_friend&utm_medium=desktop&rcr=MzEyMTU2NjMyMA&rm=en_in','https://www.hm.com/register?utm_source=invite_a_friend&utm_medium=desktop&rcr=MzEyMTU2NjI1NA&rm=en_in','https://www.hm.com/register?utm_source=invite_a_friend&utm_medium=desktop&rcr=MzEyMTU2NjExMg&rm=en_in']
+url = ['https://www.hm.com/register?utm_source=invite_a_friend&utm_medium=desktop&rcr=MzEyMTYzNDA3NA&rm=en_in']
 
-
-
-
-
-
+urls = ['https://www2.hm.com/en_in/women/shop-by-product/accessories.html']
 
 
 #randomized character functions
@@ -49,7 +45,6 @@ yees =  ['1987','1988','1989','1990','1991','1992','1993','1994','1995','1996','
 yoiz = (random.sample(yees, k=1))
 
 
-urls = ['https://www2.hm.com/en_in/women/new-arrivals/view-all.html']
 
 firstnames = ['Rudra', 'Ishaan', 'Shivay', 'Rudra','Ishaan', 'Shivay', 'Rudransh', 'Shivansh','Krish', 'Kanha', 'Mohammed', 'Ali', 'Ramunghor', 'Aliya', 'Ishika', 'Mahek', 'Jhilmil', 'Tumei', 'Tomol', 'Gaurav', 'Kunal','Preetum','Piyush', 'Arnav', 'Sujal']
 
@@ -64,6 +59,9 @@ homelocation = ['opp. Guarav panshop', 'saroji road, ken apartment', 'Opp. KK Ho
 
 sleep(randint(2,3))
 pyautogui.leftClick(95, 10)
+time.sleep(1)
+pyautogui.leftClick(460,180)
+
 time.sleep(2)
 pyautogui.leftClick(300,50)
 time.sleep(1)
@@ -100,8 +98,8 @@ sleep(randint(1,2))
 pyautogui.leftClick(660,440)
 sleep(randint(6,7))
 pyautogui.leftClick(300,50)
-sleep(randint(4,5))
-pyautogui.typewrite('https://www2.hm.com/en_in/women/new-arrivals/view-all.html')
+sleep(randint(7,8))
+pyautogui.typewrite('https://www2.hm.com/en_in/women/shop-by-product/accessories.html')
 time.sleep(2)
 pyautogui.hotkey('ENTER')
 time.sleep(5)
@@ -111,27 +109,36 @@ pyautogui.leftClick(400,700)
 
 
 time.sleep(5)
-pyautogui.leftClick(1200,600)
-sleep(randint(2,3))
+pyautogui.leftClick(1360,240)
+sleep(randint(1,2))
 
 pyautogui.leftClick(1200,655)
+pyautogui.leftClick(1200,625)
+pyautogui.leftClick(1200,605)
+pyautogui.leftClick(1200,585)
+pyautogui.leftClick(1200,565)
+pyautogui.leftClick(1200,545)
+pyautogui.leftClick(1200,525)
+pyautogui.leftClick(1200,505)
+pyautogui.leftClick(1200,485)
+pyautogui.leftClick(1200,465)
+pyautogui.leftClick(1200,445)
+time.sleep(1)
+pyautogui.leftClick(1360,90)
+
 sleep(randint(2,4))
+
 #add cart
-pyautogui.leftClick(1200,669)
-time.sleep(3)
 #go cart
-
-
-
-
-pyautogui.moveTo(1270,120)
-time.sleep(4)
-pyautogui.leftClick(1240,490)
-pyautogui.leftClick(1240,492)
-pyautogui.leftClick(1240,488)
-pyautogui.leftClick(1240,494)
-pyautogui.leftClick(1240,496)
-
+pyautogui.leftClick(1270,120)
+sleep(randint(6,8))
+pyautogui.leftClick(1360,320)
+time.sleep(2)
+pyautogui.leftClick(1060,280)
+pyautogui.leftClick(1060,260)
+pyautogui.leftClick(1060,240)
+pyautogui.leftClick(1060,300)
+pyautogui.leftClick(1060,340)
 
 sleep(randint(10,15))
 
@@ -177,7 +184,7 @@ pyautogui.hotkey('ENTER')
 time.sleep(2)
 pyautogui.leftClick(242,540)
 time.sleep(6)
-pyautogui.leftClick(153,347)
+pyautogui.leftClick(136,347)
 time.sleep(2)
 pyautogui.leftClick(270,690)
 time.sleep(6)
