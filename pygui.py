@@ -10,7 +10,8 @@ from random import randint
 
 
 
-url = ['https://www.hm.com/register?utm_source=invite_a_friend&utm_medium=desktop&rcr=MzEyMTYzNDA3NA&rm=en_in']
+
+url = ['https://www.hm.com/register?utm_source=invite_a_friend&utm_medium=desktop&rcr=MzEyMTMzMDg3Mg&rm=en_in']
 
 urls = ['https://www2.hm.com/en_in/women/shop-by-product/accessories.html']
 
@@ -105,7 +106,9 @@ pyautogui.hotkey('ENTER')
 time.sleep(5)
 #cloth selection
 pyautogui.leftClick(400,700)
-
+pyautogui.leftClick(400,730)
+pyautogui.leftClick(400,760)
+pyautogui.leftClick(400,770)
 
 
 time.sleep(5)
@@ -196,7 +199,7 @@ pyautogui.leftClick(1360,90)
 time.sleep(1)
 pyautogui.moveTo(1030,120)
 time.sleep(4)
-pyautogui.leftClick(878,225)
+pyautogui.leftClick(878,215)
 time.sleep(1)
 pyautogui.leftClick(300,50)
 time.sleep(1)
@@ -205,4 +208,326 @@ pyautogui.hotkey('ENTER')
 time.sleep(4)
 pyautogui.moveTo(1030,120)
 time.sleep(4)
-pyautogui.leftClick(878,225)
+pyautogui.leftClick(878,215)
+
+#2
+sleep(randint(2,3))
+pyautogui.leftClick(95, 10)
+time.sleep(1)
+pyautogui.leftClick(460,180)
+
+time.sleep(2)
+pyautogui.leftClick(300,50)
+time.sleep(1)
+
+#url
+pyautogui.write(str(random.choice(url)))
+time.sleep(1)
+pyautogui.hotkey('ENTER')
+sleep(randint(5,6))
+pyautogui.click(500,470)
+time.sleep(1)
+pyautogui.typewrite (str(res)+("2@gmail.com"))
+print(str(res)+("2@gmail.com"))
+time.sleep(1)
+pyautogui.leftClick(500,550)
+time.sleep(0.5)
+pyautogui.typewrite(str(res)+(res2))
+time.sleep(1)
+pyautogui.leftClick(500,680)
+
+pyautogui.write(random.choice(diss))
+
+pyautogui.leftClick(700,680)
+
+pyautogui.write(random.choice(noss))
+
+pyautogui.leftClick(900,680)
+
+
+pyautogui.typewrite(random.choice(yees))
+time.sleep(1)
+pyautogui.leftClick(1360,500)
+sleep(randint(1,2))
+pyautogui.leftClick(660,440)
+sleep(randint(6,7))
+pyautogui.leftClick(300,50)
+sleep(randint(7,8))
+pyautogui.typewrite('https://www2.hm.com/en_in/women/shop-by-product/accessories.html')
+time.sleep(2)
+pyautogui.hotkey('ENTER')
+time.sleep(5)
+#cloth selection
+pyautogui.leftClick(400,700)
+pyautogui.leftClick(400,730)
+pyautogui.leftClick(400,760)
+pyautogui.leftClick(400,770)
+
+
+
+
+time.sleep(5)
+pyautogui.leftClick(1360,240)
+sleep(randint(1,2))
+
+pyautogui.leftClick(1200,655)
+pyautogui.leftClick(1200,625)
+pyautogui.leftClick(1200,605)
+pyautogui.leftClick(1200,585)
+pyautogui.leftClick(1200,565)
+pyautogui.leftClick(1200,545)
+pyautogui.leftClick(1200,525)
+pyautogui.leftClick(1200,505)
+pyautogui.leftClick(1200,485)
+pyautogui.leftClick(1200,465)
+pyautogui.leftClick(1200,445)
+time.sleep(1)
+pyautogui.leftClick(1360,90)
+
+sleep(randint(2,4))
+
+#add cart
+#go cart
+pyautogui.leftClick(1270,120)
+sleep(randint(6,8))
+pyautogui.leftClick(1360,320)
+time.sleep(2)
+pyautogui.leftClick(1060,280)
+pyautogui.leftClick(1060,260)
+pyautogui.leftClick(1060,240)
+pyautogui.leftClick(1060,300)
+pyautogui.leftClick(1060,340)
+
+sleep(randint(10,15))
+
+#fill up billing info
+#firstname
+pyautogui.leftClick(350,480)
+time.sleep(1)
+pyautogui.write(random.choice(firstnames))
+
+#lastname
+pyautogui.leftClick(520,480)
+pyautogui.write(random.choice(lastnames))
+time.sleep(1)
+pyautogui.leftClick(300,610)
+pyautogui.typewrite(random.choice(homelocation))
+
+time.sleep(1)
+pyautogui.leftClick(300,720)
+pyautogui.write(random.choice(postals))
+time.sleep(1)
+pyautogui.leftClick(1360,650)
+time.sleep(1)
+pyautogui.leftClick(130,388)
+time.sleep(1)
+pyautogui.leftClick(660,545)
+time.sleep(1)
+pyautogui.write ("80"+(str(res1)))
+time.sleep(2)
+
+pyautogui.leftClick(270,660)
+pyautogui.leftClick(270,800)
+time.sleep(3)
+pyautogui.leftClick(509,426)
+time.sleep(1)
+pyautogui.leftClick(805,594)
+pyautogui.leftClick(805,585)
+pyautogui.leftClick(805,612)
+time.sleep(3)
+pyautogui.leftClick(509,426)
+
+
+pyautogui.hotkey('ENTER')
+time.sleep(2)
+pyautogui.leftClick(242,540)
+time.sleep(6)
+pyautogui.leftClick(136,347)
+time.sleep(2)
+pyautogui.leftClick(270,690)
+time.sleep(6)
+pyautogui.leftClick(1360,90)
+time.sleep(1)
+
+pyautogui.leftClick(1360,90)
+
+time.sleep(1)
+pyautogui.moveTo(1030,120)
+time.sleep(4)
+pyautogui.leftClick(878,215)
+time.sleep(1)
+pyautogui.leftClick(300,50)
+time.sleep(1)
+pyautogui.write ('https://www2.hm.com/en_in/women/new-arrivals/view-all.html')
+pyautogui.hotkey('ENTER')
+time.sleep(4)
+pyautogui.moveTo(1030,120)
+time.sleep(4)
+pyautogui.leftClick(878,215)
+
+#3
+sleep(randint(2,3))
+pyautogui.leftClick(95, 10)
+time.sleep(1)
+pyautogui.leftClick(460,180)
+
+time.sleep(2)
+pyautogui.leftClick(300,50)
+time.sleep(1)
+
+#url
+pyautogui.write(str(random.choice(url)))
+time.sleep(1)
+pyautogui.hotkey('ENTER')
+sleep(randint(5,6))
+pyautogui.click(500,470)
+time.sleep(1)
+pyautogui.typewrite (str(res)+("3@gmail.com"))
+print(str(res)+("3@gmail.com"))
+time.sleep(1)
+pyautogui.leftClick(500,550)
+time.sleep(0.5)
+pyautogui.typewrite(str(res)+(res2))
+time.sleep(1)
+pyautogui.leftClick(500,680)
+
+pyautogui.write(random.choice(diss))
+
+pyautogui.leftClick(700,680)
+
+pyautogui.write(random.choice(noss))
+
+pyautogui.leftClick(900,680)
+
+
+pyautogui.typewrite(random.choice(yees))
+time.sleep(1)
+pyautogui.leftClick(1360,500)
+sleep(randint(1,2))
+pyautogui.leftClick(660,440)
+sleep(randint(6,7))
+pyautogui.leftClick(300,50)
+sleep(randint(7,8))
+pyautogui.typewrite('https://www2.hm.com/en_in/women/shop-by-product/accessories.html')
+time.sleep(2)
+pyautogui.hotkey('ENTER')
+time.sleep(5)
+#cloth selection
+pyautogui.leftClick(400,700)
+pyautogui.leftClick(400,730)
+pyautogui.leftClick(400,760)
+pyautogui.leftClick(400,770)
+
+
+time.sleep(5)
+pyautogui.leftClick(1360,240)
+sleep(randint(1,2))
+
+pyautogui.leftClick(1200,655)
+pyautogui.leftClick(1200,625)
+pyautogui.leftClick(1200,605)
+pyautogui.leftClick(1200,585)
+pyautogui.leftClick(1200,565)
+pyautogui.leftClick(1200,545)
+pyautogui.leftClick(1200,525)
+pyautogui.leftClick(1200,505)
+pyautogui.leftClick(1200,485)
+pyautogui.leftClick(1200,465)
+pyautogui.leftClick(1200,445)
+time.sleep(1)
+pyautogui.leftClick(1360,90)
+
+sleep(randint(2,4))
+
+#add cart
+#go cart
+pyautogui.leftClick(1270,120)
+sleep(randint(6,8))
+pyautogui.leftClick(1360,320)
+time.sleep(2)
+pyautogui.leftClick(1060,280)
+pyautogui.leftClick(1060,260)
+pyautogui.leftClick(1060,240)
+pyautogui.leftClick(1060,300)
+pyautogui.leftClick(1060,340)
+
+sleep(randint(10,15))
+
+#fill up billing info
+#firstname
+pyautogui.leftClick(350,480)
+time.sleep(1)
+pyautogui.write(random.choice(firstnames))
+
+#lastname
+pyautogui.leftClick(520,480)
+pyautogui.write(random.choice(lastnames))
+time.sleep(1)
+pyautogui.leftClick(300,610)
+pyautogui.typewrite(random.choice(homelocation))
+
+time.sleep(1)
+pyautogui.leftClick(300,720)
+pyautogui.write(random.choice(postals))
+time.sleep(1)
+pyautogui.leftClick(1360,650)
+time.sleep(1)
+pyautogui.leftClick(130,388)
+time.sleep(1)
+pyautogui.leftClick(660,545)
+time.sleep(1)
+pyautogui.write ("98"+(str(res1)))
+time.sleep(2)
+
+pyautogui.leftClick(270,660)
+pyautogui.leftClick(270,800)
+time.sleep(3)
+pyautogui.leftClick(509,426)
+time.sleep(1)
+pyautogui.leftClick(805,594)
+pyautogui.leftClick(805,585)
+pyautogui.leftClick(805,612)
+time.sleep(3)
+pyautogui.leftClick(509,426)
+
+
+pyautogui.hotkey('ENTER')
+time.sleep(2)
+pyautogui.leftClick(242,540)
+time.sleep(6)
+pyautogui.leftClick(136,347)
+time.sleep(2)
+pyautogui.leftClick(270,690)
+time.sleep(6)
+pyautogui.leftClick(1360,90)
+time.sleep(1)
+
+pyautogui.leftClick(1360,90)
+
+time.sleep(1)
+pyautogui.moveTo(1030,120)
+time.sleep(4)
+pyautogui.leftClick(878,215)
+time.sleep(1)
+pyautogui.leftClick(300,50)
+time.sleep(1)
+pyautogui.write ('https://www2.hm.com/en_in/women/new-arrivals/view-all.html')
+pyautogui.hotkey('ENTER')
+time.sleep(4)
+pyautogui.moveTo(1030,120)
+time.sleep(4)
+pyautogui.leftClick(878,215)
+time.sleep(2)
+pyautogui.leftClick(136, 50)
+time.sleep(2)
+pyautogui.leftClick(116, 120)
+time.sleep(1)
+pyautogui.leftClick(296, 18)
+time.sleep(1)
+pyautogui.leftClick(296, 18)
+time.sleep(1)
+pyautogui.leftClick(296, 18)
+time.sleep(1)
+pyautogui.leftClick(296, 18)
+time.sleep(1)
+pyautogui.leftClick(296, 18)
